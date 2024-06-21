@@ -1,0 +1,232 @@
+.bgimg{
+    background-image: url("../image/pexels-janko-ferlic-590493.jpg");
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    width:100%;
+}
+#main{
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 6;
+    background-color: white;
+    height: 100px;
+    box-shadow: 0 2px 18px grey;
+}
+/*-----------------------------------------------waves----------------waves------------waves----------*/
+
+/* @keyframes move_wave {
+    0% {
+        transform: translateX(0) translateZ(0) scaleY(1)
+    }
+    50% {
+        transform: translateX(-25%) translateZ(0) scaleY(0.55)
+    }
+    100% {
+        transform: translateX(-50%) translateZ(0) scaleY(1)
+    }
+}
+
+
+.waveWrapper {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top:0%;
+    margin: auto;
+}
+.waveWrapperInner {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    bottom: -1px;
+   
+}
+.bgTop {
+    z-index: 1;
+    opacity: 0.5;
+}
+.bgMiddle {
+    z-index: 10;
+    opacity: 0.75;
+}
+.bgBottom {
+    z-index: 5;
+}
+.wave {
+    position: absolute;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background-repeat: repeat no-repeat;
+    background-position: 0 bottom;
+    transform-origin: center bottom;
+}
+.waveTop {
+    background-size: 70% 100px;
+}
+.waveAnimation .waveTop {
+    animation: move-wave 3s;
+    -webkit-animation: move-wave 3s;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+.waveMiddle {
+    background-size: 50% 200px;
+}
+.waveAnimation .waveMiddle {
+    animation: move_wave 10s linear infinite;
+}
+.waveBottom {
+    background-size: 50% 100px;
+}
+.waveAnimation .waveBottom {
+    animation: move_wave 15s linear infinite;
+} */
+.custom-shape-divider-bottom-1703059410 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1703059410 svg {
+    position: relative;
+    display: block;
+    width: calc(271% + 1.3px);
+    height: 312px;
+}
+
+.custom-shape-divider-bottom-1703059410 .shape-fill {
+    fill:rgba(255, 255, 255, 0.4)
+}
+/*---------------------------social site(part2)--------------------------------------------------------------*/
+.social-site{
+    margin: 5px 50px;
+    padding-top: 72px;
+    display:flex;
+    justify-content: space-between;
+}
+.phwrapper{
+    display:inline-block;
+    
+    height: 600px;
+    position: relative;
+
+}
+
+.sub1,.sub3{
+    position: absolute;
+    top:50%;
+    z-index: 3;
+    color:white;
+    background-color:orangered;
+    font-size: 30px;
+}
+.sub1{
+    left:0;
+
+}
+.sub3{
+    right: 0;
+
+}
+/*=------------------------------------------------insta frame----------------------------------------------------*/
+.insta-wrapper{
+    text-align: center;
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+
+
+
+/*----------------------------------------------------------blogs-----------------------------------------------------*/
+.blogs {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 23%;
+    
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 45%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+
+
+  /*----------------------------------------------------footer---------------------------------------------------------*/
+  .footer{
+    padding: 10px 0;
+  }
+  .footer ul{
+    margin-top: 9px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 25px;
+
+  }
+  .footer ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 30px;
+  }
