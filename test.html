@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/enspace01.css">
+    <script src="https://kit.fontawesome.com/c1b49e34ab.js" crossorigin="anonymous"></script>
+    <style>
+        *{
+          margin: 0;
+          padding: 0;
+        }
+      body {
+        font-family: "Lato", sans-serif;
+      
+      }
+      
+      .sidenav {
+        
+        height: 100%;
+        width: 0;
+      
+        z-index: 10;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x:hidden;
+        overflow-y:hidden;
+       
+        transition: 0.5s;
+        padding-top: 60px;
+        text-align: center;
+        position: fixed;
+       
+      }
+      
+      .sidenav a {
+        padding: 8px 8px 8px 40px;
+        text-decoration: none;
+        font-size: 40px;
+        color: #818181;
+        display: block;
+        margin-bottom: 40px;
+        font-weight: 700;
+        transition: 0.7s;
+        
+      }
+      .sidenav a:hover{
+      
+      height:35px;
+      }
+      .sidenav a:hover {
+        color: #f1f1f1;
+      }
+      
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 50px;
+        margin-left: 50px;
+      }
+      
+      #main {
+        transition: margin-left .5s;
+        padding:0;
+        
+        margin:0;
+                
+      }
+      
+      @media screen and (max-width: 411px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+        
+        
+        
+      }
+      #main ul{
+      list-style-type:none;
+      text-align:center;
+      display:flex;
+      flex-direction:row;
+      align-items:center;
+      justify-content: space-between;
+
+      }
+      #main ul li{
+      
+      
+      text-decoration:none;
+      padding:15px;
+      vertical-align:center;
+      
+      
+      }
+      
+      </style>
+      </head>
+      <body>
+      
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="team.html">Team Member</a>
+        <a href="#">Contact</a>
+      </div>
+      
+      <div id="main">
+      <ul><li><img height="60px" src="a.jpg"></li>
+        <li style="font-size: 40px;font-weight: 700;">ENSPACE</li>
+        <li id="x"><span style="font-size:35px;cursor:pointer;margin-right: 10px;" onclick="openNav()">&#9776;</span></li>
+      </ul>
+      </div>
+      <div class="bgimg">
+        <div style="position: absolute;top:300px;left:500px;text-align: center;">
+        <h1>WELCOME TO ENSPACE</h1>
+        <h2>Your Entreprenuer journey starts here</h2>
+        </div>
+      <!-- <div class="waveWrapper waveAnimation">
+        
+        <div class="waveWrapperInner bgTop"  style="display:none;">
+          <div class="wave waveTop" style="background-image: url('wave/wave-top.png')"></div>
+        </div>
+        <div class="waveWrapperInner bgMiddle"  style="display:none;">
+          <div class="wave waveMiddle" style="background-image: url('wave/wave-mid.png')"></div>
+        </div>
+        <div class="waveWrapperInner bgBottom">
+          
+          <div class="wave waveBottom" style="background-image: url('wave/wave-bot.png');opacity: 0.3;"></div>
+        </div>
+      </div> -->
+      <div class="custom-shape-divider-bottom-1703059410">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+        </svg>
+    </div>
+      
+      </div>
+      <div class="social-site">
+        <div class="phwrapper">
+          <div class="sub1" onclick="prev()">
+            <i class="fa-solid fa-angle-left"></i>
+
+        </div>
+            <img width="auto" height="100%" class="responsive" src="enspace image/84715364_2997557930268375_2762993246526242816_n.jpg">
+           
+          <div class="sub3" onclick="next()">
+            <i class="fa-solid fa-angle-right"></i>
+        </div>
+        </div>
+        <div class="insta-wrapper">
+          <h2 style="font-size: 35px;" >E-Cell News</h2>
+          <iframe style="height: 500px;" src="https://inc42.com/buzz" title="startup related news site" ></iframe>
+          <a href="https://inc42.com/buzz/" style="font-size:20px;color:rgb(1, 116, 187);text-decoration: none;margin-top: 10px;">view more</a>
+        </div>
+        
+
+      </div>
+      <h1 style="text-align: center;margin: 30px;font-size: 40px;">Popular Blogs</h1>
+      <!---------------------------------------------------------------------blogs----------------------------------------------------->
+      <div class="blogs">
+      <div class="row">
+        <div class="column">
+          <div class="content">
+            <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+            <h3>My Work</h3>
+            <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+          <img src="/w3images/lights.jpg" alt="Lights" style="width:100%">
+            <h3>My Work</h3>
+            <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+          <img src="/w3images/nature.jpg" alt="Nature" style="width:100%">
+            <h3>My Work</h3>
+            <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+          <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+            <h3>My Work</h3>
+            <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+          </div>
+        </div>
+      <!-- END GRID -->
+      </div>
+      </div><!--------end of blogs-->
+<h2 style="text-align: center;margin: 40px 0;font-weight: 700;font-size: 40px;">Annual Magazine</h2>
+<div class="magzines">
+<div class="row">
+  <div class="column">
+
+  </div>
+  </div>
+  
+</div>
+<div class="footer" style="background-color: #111;color:white;text-align: center;">
+  <h4>For Any Query kindly Go To <a style="color:white" href="#">contact us</a></h4>
+  <ul>
+    <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+    <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+    <li><a href=""><i class="fa-brands fa-instagram"></i></i></a></li>
+    <li><a href=""><i class="fa-brands fa-youtube"></i></i></a></li>
+  </ul>
+ <h3 style="margin-top: 15px;">The Entreprenuership Cell | MVIT,Bangalore</h3>
+</div>
+      <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "100%";
+          document.getElementById("main").style.marginLeft = "250px";
+          document.querySelector(".wave").style.width="0%";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+          document.querySelector(".wave").style.width="200%";
+        }
+        
+        </script>
+</body>
+</html>

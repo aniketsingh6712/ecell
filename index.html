@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css1.css"> 
+<link rel="stylesheet" type="text/css" href="servicebox.css">
+<link rel="stylesheet" type="text/css" href="media.css">
+<script src="https://kit.fontawesome.com/c1b49e34ab.js" crossorigin="anonymous"></script>
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+  }
+body {
+  font-family: "Lato", sans-serif;
+
+}
+
+.sidenav {
+  
+  height: 50%;
+  width: 0;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x:hidden;
+  overflow-y:hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 40px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  
+  transition: 0.5s;
+  
+}
+.sidenav a:hover{
+border:2px dotted white;
+height:35px;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.sidenav .closebtn:hover{
+  border:none;font-size:40px;transition: 0.4s;}
+#main {
+  transition: margin-left .5s;
+  padding:0;
+  border:2px solid black;
+  margin:0;
+  
+}
+
+@media screen and (max-width: 411px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  
+  
+  
+}
+#main ul{
+list-style-type:none;
+text-align:center;
+display:flex;
+flex-direction:row;
+}
+#main ul li{
+
+
+text-decoration:none;
+padding:15px;
+vertical-align:center;
+margin:auto;
+
+}
+
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="campus ambassador/campus-amb.html">Campus Ambassador</a>
+  <a href="team-update.html">Team Member</a>
+  <a href="#" onclick="scrollToSection('furm')">Contact</a>
+</div>
+
+<div id="main">
+<ul><li><img src="a.jpg"></li>
+  
+  <li id="x"><span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span></li>
+</ul>
+</div>
+<!--------------------------------------------------------------------------------------->
+<div id="bd">
+<div class="hg"><img src="a.jpg" style="padding-top:30px;" >
+<p  class="p1">THE ENTREPRENEURSHIP CELL SIR MVIT BANGALORE</p>
+<h2 style="font-style: italic;margin-bottom: 40px;">"CREATING JOB CREATORS"<h2>
+<div id="m1">
+<a href="gallery.html">E-SUMMIT</a>
+<a href="">EUREKA!</a>
+<a href="">NEC</a>
+<a href="">ENB</a>
+<a href="">FINCOF</a>
+<a href="">SSP</a>
+</div>
+<a href="#about" class="home-arrow scroll uppercase bold" style="color:white;text-decoration: none;margin-bottom: 70px;">
+  <img src="image/bottom-arrow.png" alt="bottom" style="display: block; margin: auto;">
+  <span>what we do ?</span>
+</a>
+</div>
+<div class="s1">
+<h1 style="padding-top:50px;">Our Initiatives</h1>
+<p >WE at E-Cell,SIR MVIT Bengaluru believe that entrerenurship is the key to India's development.<br>To fullfill this vision,we have conceptualize & successfully implement various initiatives to help,students,young entrepreneurs & professionals in their journey.<p>
+<div id="service-box">
+  <div class="col-xs-4 service-box animated fadeIn visible" data-animation="fadeIn" data-animation-delay="200" data-toggle="tooltip" data-placement="top" title="" data-original-title="The Entrepreneurship Summit is our annual flagship event which is a confluence of visionary students, professionals or anybody who has a passion for leaving a dent in the universe, start his own business or fund a venture and become a trendsetter. ">
+    <!-- Icon -->
+    <a class="service-icon" href="#" target="_blank">
+      <i>
+        <img src="image/E-Summit.png" class="iconi">
+      </i>
+    </a>
+    <!-- Header -->
+    <p class="service-header light white">E-Summit</p>
+  </div>
+<!--second element-->
+  <div class="col-xs-4 service-box animated fadeIn visible" data-animation="fadeIn" data-animation-delay="200" data-toggle="tooltip" data-placement="top" title="" data-original-title="Eureka! is Asia’s largest B-Model competition which aims at encouraging people from across the globe to flesh out their ideas and form global enterprises that combine technology, vision and business acumen.">
+    <!-- Icon -->
+    <!-- Icon -->
+    <a class="service-icon" href="#" target="_blank">
+      <i>
+        <img src="image/EUREKA.png" class="iconi">
+      </i>
+    </a>
+    <!-- Header -->
+    <p class="service-header light white">Eureka</p>
+  </div>
+  <!--third element-->
+  <div class="col-xs-4 service-box animated fadeIn visible" data-animation="fadeIn" data-animation-delay="200" data-toggle="tooltip" data-placement="top" title="" data-original-title="Eureka! Junior provides the perfect platform for young inquisitive minds to solve normal problems in the most innovative and creative way possible. Starting off with teaching you the very basics of entrepreneurship, to polishing your creative ideas, to drafting your Business Plan and pitching in front of a panel of esteemed judges, this platform has everything! ">
+    <!-- Icon -->
+    <!-- Icon -->
+    <a class="service-icon" href="#" target="_blank">
+      <i>
+        <img src="image/EUREKA.png" class="iconi">
+      </i>
+    </a>
+    <!-- Header -->
+    <p class="service-header light white">Eureka Junior</p>
+  </div>
+
+  <!--fourth element-->
+  <div class="col-xs-4 service-box animated fadeIn visible" data-animation="fadeIn" data-animation-delay="200" data-toggle="tooltip" data-placement="top" title="" data-original-title="National Entrepreneurship Challenge’s mission is to help other colleges create an ecosystem for budding entrepreneurs by establishing an E-Cell in their respective institutes.">
+    <!-- Icon -->
+    <a class="service-icon" href="#" target="_blank">
+      <i>
+        <img src="image/NEC.png" class="iconi">
+      </i>
+    </a>
+    <!-- Header -->
+    <p class="service-header light white">NEC</p>
+  </div>
+  <!--fifth elemtent-->
+  <div class="col-xs-4 service-box animated fadeIn visible" data-animation="fadeIn" data-animation-delay="200" data-toggle="tooltip" data-placement="top" title="" data-original-title="Startup Services Platform provides some of the most necessary services availed by startups at concessional rates as compared to market rates.">
+    <!-- Icon -->
+    <a class="service-icon" href="#" target="_blank">
+      <i>
+        <img src="image/SSP.png" class="iconi">
+      </i>
+    </a>
+    <!-- Header -->
+    <p class="service-header light white" href="#" target="_blank">SSP</p>
+  </div>
+  <!--sisxth element--> 
+  <div class="col-xs-4 service-box animated fadeIn visible" data-animation="fadeIn" data-animation-delay="200" data-toggle="tooltip" data-placement="top" title="" data-original-title="Freelancers, Interns &amp; Co-Founders platform connects startups to students who are interested in the kind of work they have to offer &amp; bring their idea to life. ">
+    <!-- Icon -->
+    <a class="service-icon" href="#" target="_blank">
+      <i>
+        <img src="image/FCoF.png" class="iconi">
+      </i>
+    </a>
+    <!-- Header -->
+    <p class="service-header light white">FInCoF</p>
+  </div> 
+
+  <div class="col-xs-4 service-box animated fadeIn visible" data-animation="fadeIn" data-animation-delay="200" data-toggle="tooltip" data-placement="top" title="" data-original-title="Freelancers, Interns &amp; Co-Founders platform connects startups to students who are interested in the kind of work they have to offer &amp; bring their idea to life. ">
+    <!-- Icon -->
+    <a class="service-icon" href="#" target="_blank">
+      <i>
+        <img src="image/EnB.png" class="iconi">
+      </i>
+    </a>
+    <!-- Header -->
+    <p class="service-header light white">EnB</p>
+  </div> 
+
+  <div class="col-xs-4 service-box animated fadeIn visible" data-animation="fadeIn" data-animation-delay="200" data-toggle="tooltip" data-placement="top" title="" data-original-title="Freelancers, Interns &amp; Co-Founders platform connects startups to students who are interested in the kind of work they have to offer &amp; bring their idea to life. ">
+    <!-- Icon -->
+    <a class="service-icon" href="test.html" target="_blank">
+      <i>
+        <img src="image/enspace.png" class="iconi">
+      </i>
+    </a>
+    <!-- Header -->
+    <p class="service-header light white">EnSpace</p>
+  </div> 
+  <div class="col-xs-4 service-box animated fadeIn visible" data-animation="fadeIn" data-animation-delay="200" data-toggle="tooltip" data-placement="top" title="" data-original-title="Freelancers, Interns &amp; Co-Founders platform connects startups to students who are interested in the kind of work they have to offer &amp; bring their idea to life. ">
+    <!-- Icon -->
+    <a class="service-icon" href="#" target="_blank">
+      <i>
+        <img src="image/logo.png" class="iconi">
+      </i>
+    </a>
+    <!-- Header -->
+    <p class="service-header light white">Kaaya</p>
+  </div> 
+
+
+
+
+</div> 
+</div>
+
+<p style="color:white;background-color:black;font-size:30px;padding-top:50px;padding-bottom:50px;">"DON'T GO WHERE THE PATH MAY LEAD,<br>GO INSTEAD WHERE THERE IS NO PATH AND<br> LEAVE A TRAIL."</p>
+<div class="alm">
+  <div class="sub1" onclick="prev()">
+                <i class="fa-solid fa-angle-left"></i>
+
+            </div>
+            <div class="sub2">
+                    <div class="img" style="width:200px;height: 150px; margin:auto;"></div>
+                    <div class="container">
+                    <h2 class="name">Rajesh kumar</h2>
+                    <p class="title">CEO & Founder Of Tescorp</p>
+                    <p class="quote">It was pleasure to join the Mvit,it where real dream is created.<br>
+                        i hope mvit will continue to inspire the young engineer to do something<br> bigger and
+                        will contribute to the society
+                    </p>
+                    </div>
+
+            </div>
+            <div class="sub3" onclick="next()">
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
+  </div>
+
+
+<div id="furm" >
+<h2 style="padding-top:30px;">GET IN TOUCH</h2>
+<p>Feel free to contact us in case of any queries</p>
+<form action="" method="">
+
+<input type="text" name="" placeholder="Name" class="form light"><br>
+<input type="text" name="" placeholder="Email" class="form light"><br>
+<input type="text" name="" placeholder="Subject" class="form light"><br>
+<textarea row="70" cols="50" placeholder="Message" class="form light textarea"></textarea><br>
+<input type="submit" value="Send Message" class="subform">
+</form>
+</div>
+</div>
+<script src="main.js"></script>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "100%";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+<script>
+  function scrollToSection(sectionId) {
+var section = document.getElementById(sectionId);
+if (section) {
+  section.scrollIntoView({ behavior: 'smooth' });
+}
+}
+</script>
+   
+</body>
+</html> 

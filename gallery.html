@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/gallery.css">
+    <link rel="stylesheet" type="text/css" href="css/gallery-img.css">
+    <script src="https://kit.fontawesome.com/c1b49e34ab.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="header sticky" id="navbar">
+        <div>
+        <img src="a.jpg"></div>
+        <div class="sub-header">
+        
+        <p><a href="index.html" style="text-decoration: none;color:white;">Home</a></p>
+        <p><a href="index.html" style="text-decoration: none;color:white;">contact us</a></p>
+
+        </div>
+        </div>
+        <div class="ecell-moments">
+            <h1 style="font-size: 50px;color: rgba(189, 159, 103,1);padding-top: 50px;font-family: Bebas Neue,sans-serif;">E-CELL MOMENTS</h1>
+            <p> Explore memorable moments from our annual E-Summit event, where aspiring entrepreneurs, industry experts, and innovators come together to inspire and learn. </p>
+            <div class="gallery">
+                <div class="image" onclick="checkimg(0)">
+                    <img id="myimg1" src="ecell-image/101797265_3308872545803577_2222684135896383488_n.jpg" alt="Snow" style="width:100%;max-width:300px">
+
+                    <!-- The Modal -->
+                    <div id="modal1" class="modal">
+                    <span class="close" id="close01">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="cap01"></div>
+                    </div>
+                </div>
+
+                <div class="image" onclick="checkimg(1)">
+                    <img id="myimg2" src="ecell-image/_dsc0270.jpg" alt="Snow" style="width:100%;max-width:300px">
+
+                    <!-- The Modal -->
+                    <div id="modal2" class="modal">
+                    <span class="close" id="close02">&times;</span>
+                    <img class="modal-content" id="img02">
+                    <div id="cap02"></div>
+                    </div>
+                </div>
+
+                <div class="image" onclick="checkimg(2)">
+                    <img id="myimg3" src="ecell-image/_dsc7848.jpg" alt="Snow" style="width:100%;max-width:300px">
+
+                    <!-- The Modal -->
+                    <div id="modal3" class="modal">
+                    <span class="close" id="close03">&times;</span>
+                    <img class="modal-content" id="img03">
+                    <div id="cap03"></div>
+                    </div>
+                </div>
+
+                <div class="image" onclick="checkimg(3)">
+                    <img id="myimg4" src="ecell-image/eurekawinner2.jpg" alt="Snow" style="width:100%;max-width:300px">
+
+                    <!-- The Modal -->
+                    <div id="modal4" class="modal">
+                    <span class="close" id="close04">&times;</span>
+                    <img class="modal-content" id="img04">
+                    <div id="cap04"></div>
+                    </div>
+                </div>
+
+                <div class="image" onclick="checkimg(4)">
+                    <img id="myimg5" src="ecell-image/IMG-20221031-WA0012.jpg" alt="Snow" style="width:100%;max-width:300px">
+
+                    <!-- The Modal -->
+                    <div id="modal5" class="modal">
+                    <span class="close" id="close05">&times;</span>
+                    <img class="modal-content" id="img05">
+                    <div id="cap05"></div>
+                    </div>
+                </div>
+
+                <div class="image" onclick="checkimg(5)">
+                    <img id="myimg6" src="ecell-image/Screenshot_2023-09-25_040349.png" alt="Snow" style="width:100%;max-width:300px">
+
+                    <!-- The Modal -->
+                    <div id="modal6" class="modal">
+                    <span class="close" id="close06">&times;</span>
+                    <img class="modal-content" id="img06">
+                    <div id="cap06"></div>
+                    </div>
+                </div>
+                <div class="image" onclick="checkimg(6)">
+                    <img id="myImg" src="ecell-image/summit19high.jpg" alt="Snow" style="width:100%;max-width:300px">
+
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                    </div>
+                </div>
+
+                <div class="image" onclick="checkimg(7)">
+                    <img id="myImg" src="ecell-image/ttmmwinner.jpg" alt="Snow" style="width:100%;max-width:300px">
+
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption" class="caption"></div>
+                    </div>
+                </div>
+
+                
+               
+            </div>
+            <h1 style="font-size: 50px;color: rgba(189, 159, 103,1);padding-top: 20px;font-family: Bebas Neue,sans-serif;">CELEBRATING SUCCESS</h1>
+            <p > Meet the past winners of E-Cell IIT Bombay competitions and get inspired by their entrepreneurial journeys. </p>
+            <!---------------------------------------slide show----------------------------------------------------->
+
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  <!-- <div class="numbertext">1 / 3</div> -->
+                  <img src="ecell-image/Screenshot_2023-09-25_040349.png" >
+                  <div class="text">Prize distribution</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <!-- <div class="numbertext">2 / 3</div> -->
+                  <img src="ecell-image/ttmm_MtKl6mb.jpg" >
+                  <div class="text">Prize distribution</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <!-- <div class="numbertext">3 / 3</div> -->
+                  <img src="ecell-image/ttmmwinner.jpg" >
+                  <div class="text">Prize distribution</div>
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+                
+                </div>
+                <br>
+                
+                <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+        </div>
+        <div class="footer" style="background-color: #111;color:white;text-align: center;">
+            <h4>For Any Query kindly Go To <a style="color:white" href="#">contact us</a></h4>
+            <ul>
+              <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-instagram"></i></i></a></li>
+              <li><a href=""><i class="fa-brands fa-youtube"></i></i></a></li>
+            </ul>
+           <h3 style="margin-top: 15px;">The Entreprenuership Cell | MVIT,Bangalore</h3>
+          </div>
+        
+   
+        <script src="gallery-img.js"></script>
+        <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+            showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+            showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}    
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+            }
+        </script>
+
+</body>
+</html>

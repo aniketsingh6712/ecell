@@ -1,0 +1,42 @@
+@media screen and (max-width:740px) {
+    .hg{
+        height:fit-content;
+
+    }
+	.home-arrow{
+		padding-bottom:30px;
+	}
+	.p1{
+		font-size:40px;
+	}
+    .visible{
+        width:100%;
+    }
+	
+	
+	.sub1,.sub3{
+		margin-left:0;
+		
+	}
+	.sub1{
+		text-align:center;
+		margin-right:30px;
+		padding-right:12px;
+    }
+    .hg p{
+        overflow-x: hidden;
+    }
+    .sidenav .closebtn{
+        margin-right: 5%;
+    }
+	.sidenav{
+		text-align:center;
+	}
+    body{
+        margin:0;
+        padding:0;
+    }
+    
+    
+    
+}

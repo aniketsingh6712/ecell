@@ -1,0 +1,90 @@
+*{
+                padding: 0;
+                margin: 0;
+            }
+            @keyframes ex1 {
+                from{opacity: 1;}
+                to{opacity: 0.2;}
+            }
+            html {
+                    box-sizing: border-box;
+            }
+			.header{
+				background-color:black;
+				color:white;
+				
+				margin:0;
+				padding:30px;
+				font-size:25px;
+			  display: flex;
+			  justify-content: center;
+			  align-items: center;
+
+
+	
+			}
+			.header img{
+				height:85px;
+				width:85px;
+			}
+			.header p{
+			  padding-left: 70px;
+			}
+
+            .column{
+                
+                width:31%;
+                margin-bottom: 16px;
+                margin-right: 8px;
+                margin-left: 8px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                position: relative;
+                display: inline-block;
+            }
+            
+            @media screen and (max-width: 650px) {
+                .column {
+                    width: 100%;
+                    display: block;
+                }
+            }
+            .icon{
+                font-size:30px;
+                padding:12px;
+                color:white;
+                background-color: black;
+                text-align: center;
+                display: none;
+                position: absolute;
+                top:60%;
+                height:22.5%;
+                width:94%;
+                
+    
+                
+                }
+            .icon i{
+                padding:20px 30px;
+                transition-property: border;
+                transition-duration: 3s;
+                cursor: pointer;
+                
+            }
+            .column p{
+                color:white;
+                background-color:black;
+            }
+            .column:hover .icon{
+                display: block;
+                
+            }
+            .column:hover img{
+                animation-name:ex1;
+                animation-duration: 3s;
+                opacity:0.2;
+            }
+            .icon i:hover{
+                border: 1px solid white;
+            }
+
+
